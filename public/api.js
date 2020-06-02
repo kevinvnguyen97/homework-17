@@ -1,5 +1,3 @@
-import { Router } from "express";
-
 const API = {
   async getLastWorkout() {
     let res;
@@ -45,3 +43,4 @@ const API = {
   },
 };
 
+module.exports = API;
